@@ -2,9 +2,9 @@ name: Hello World every 2 minutes
 on:
     schedule:
         - cron: "*/2 * * * *"
-    jobs:
-        hello-world:
-            runs-on: "ubuntu-latest"
-            steps:
-                - name: Echo Hello World
-                run: echo "Hello World"
+jobs:
+    hello-world:
+        runs-on: "ubuntu-latest"
+        steps:
+            - name: Echo Hello World
+              run: echo "Hello World"
